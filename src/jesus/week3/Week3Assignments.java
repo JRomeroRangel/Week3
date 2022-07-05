@@ -74,15 +74,17 @@ public class Week3Assignments {
 		System.out.println(myArray(testArray));
 //Part 10
 		double doubleArray[] = { 10.00, 15.5, 20.5 };
-		System.out.println(String.format("%.2f",myDouble(doubleArray)));
-		
-		
+		System.out.println(String.format("%.2f", myDouble(doubleArray)));
+
 //Part 11 Method Return
-		double avgArray[] = {50.00,50.00};
+		double avgArray[] = { 50.00, 50.00 };
 		System.out.println(avg(avgArray, doubleArray));
-		
+
 //Part 12 Method return 
 		System.out.println(willBuyDrink(true, 10.51));
+
+//Part 13 Method
+		findEvenOdd(256);
 		
 	}
 
@@ -124,7 +126,7 @@ public class Week3Assignments {
 	}
 
 //Part 10
-	
+
 	public static double myDouble(double[] num) {
 
 		double sum = 0;
@@ -133,25 +135,36 @@ public class Week3Assignments {
 			sum += numbers;
 
 		}
-		return sum/num.length;
+		return sum / num.length;
 	}
-	
-	
+
 //Part 11	
 	public static boolean avg(double[] x, double[] y) {
-		if(myDouble(x) > myDouble(y)) {
+		if (myDouble(x) > myDouble(y)) {
 			return true;
-		}else return false;		
-		
+		} else
+			return false;
+
 	}
-	
+
 //Part 12
 	public static boolean willBuyDrink(boolean isHotOUtside, double moneyInPocket) {
-		
-		if (isHotOUtside && moneyInPocket >10.50 )
-		return true;
-		else return false;
+
+		if (isHotOUtside && moneyInPocket > 10.50)
+			return true;
+		else
+			return false;
 	}
 	
 	
+//Part 13
+	public static void findEvenOdd(int num)  // is an int odd or even.
+	{  
+	//method body  
+	if(num%2==0)   
+	System.out.println(num+" is even");   
+	else   
+	System.out.println(num+" is odd");  
+	}  
+
 }
