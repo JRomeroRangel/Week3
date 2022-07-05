@@ -56,44 +56,93 @@ public class Week3Assignments {
 
 //Part 6 
 		int sum5 = 0;
-		
-		for(int count: nameLengths) {
+
+		for (int count : nameLengths) {
 			sum5 += count;
-			
+
 		}
 		System.out.println("Sum of all the elements in the array is: " + sum5);
-		
-
 
 //Part 7 Method Return		
 		System.out.println(myword("Hello", 3));
-		
+
 //Part 8 Method Return
 		System.out.println(myName("Jeus", "Romero"));
+
+// Part 9 Method Return 
+		int testArray[] = { 50, 50 };
+		System.out.println(myArray(testArray));
+//Part 10
+		double doubleArray[] = { 10.00, 15.5, 20.5 };
+		System.out.println(String.format("%.2f",myDouble(doubleArray)));
 		
 		
+//Part 11 Method Return
+		double avgArray[] = {50.00,50.00};
+		System.out.println(avg(avgArray, doubleArray));
 		
-	
-		}
+//Part		
+		
+	}
+
 //---------------------------------------------------------Main Method Break_____________________________________________________________	
 // Part 7
-	public static String myword(String word , int n) {
-		String answer= "";
+	public static String myword(String word, int n) {
+		String answer = "";
 		for (int i = 0; i < n; i++) {
-	    		   answer += word;
+			answer += word;
 		}
-	
+
 		return answer;
 	}
-	
+
 //Part 8
-	public static String myName(String name1, String name2 ) {
-		
+	public static String myName(String name1, String name2) {
+
 		String answer = name1 + " " + name2;
-		
+
 		return answer;
 	}
+
+//Part 9 
+	public static boolean myArray(int[] num) {
+
+		int sum = 0;
+		for (int numbers : num) {
+
+			sum += numbers;
+
+		}
+
+		if (sum >= 100) {
+
+			return true;
+		} else
+			return false;
+
+	}
+
+//Part 10
 	
+	public static double myDouble(double[] num) {
+
+		double sum = 0;
+		for (double numbers : num) {
+
+			sum += numbers;
+
+		}
+		return sum/num.length;
+	}
+	
+	
+//Part 11	
+	public static boolean avg(double[] x, double[] y) {
+		if(myDouble(x) > myDouble(y)) {
+			return true;
+		}else return false;		
+		
+	}
 	
 	
 }
