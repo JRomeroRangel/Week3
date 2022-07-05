@@ -16,6 +16,7 @@ public class Week3Assignments {
 		}
 		System.out.println("The avarage of the array is: " + String.format("%.2f", (sum / lastElementIndex))); // Part c
 		
+		// System.out.println(ages[ages.length -1]); return the last element of the array 
 //	Part 2. a
 
 		String names[] = { "Sam", "Tommy", "Tim", "Sally", "Buck", "Bob" }; 
@@ -26,7 +27,8 @@ public class Week3Assignments {
 			
 		}
 		
-		System.out.println("The avarage number of letters in the array is: " + (double)index/names.length);
+		
+		System.out.println("The avarage number of letters in the array is: " + index/names.length);
 		
 		
 		//Part b, Concatenate elements of the array 
@@ -37,6 +39,8 @@ public class Week3Assignments {
 			sum2 += (name +" ");
 		}
 		System.out.println(sum2);
+		
+		
 
 	}
 
