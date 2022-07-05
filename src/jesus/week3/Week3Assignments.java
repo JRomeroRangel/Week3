@@ -81,7 +81,8 @@ public class Week3Assignments {
 		double avgArray[] = {50.00,50.00};
 		System.out.println(avg(avgArray, doubleArray));
 		
-//Part		
+//Part 12 Method return 
+		System.out.println(willBuyDrink(true, 10.51));
 		
 	}
 
@@ -142,6 +143,14 @@ public class Week3Assignments {
 			return true;
 		}else return false;		
 		
+	}
+	
+//Part 12
+	public static boolean willBuyDrink(boolean isHotOUtside, double moneyInPocket) {
+		
+		if (isHotOUtside && moneyInPocket >10.50 )
+		return true;
+		else return false;
 	}
 	
 	
