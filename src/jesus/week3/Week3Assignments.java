@@ -8,7 +8,7 @@ public class Week3Assignments {
 
 	public static void main(String[] args) {
 
-		// Part 1.
+// Part 1.
 		int ages[] = { 9, 23, 64, 2, 8, 28, 93 }; // creation of age array
 
 		int lastElementIndex = ages.length;
@@ -33,7 +33,7 @@ public class Week3Assignments {
 
 		System.out.println("The avarage number of letters in the array is: " + index / names.length);
 
-		// Part b, Concatenate elements of the array
+// Part b, Concatenate elements of the array
 
 		String sum2 = "";
 
@@ -85,9 +85,7 @@ public class Week3Assignments {
 
 //Part 13 Method
 		findEvenOdd(256);
-		
-		
-		
+
 	}
 
 //---------------------------------------------------------Main Method Break_____________________________________________________________	
@@ -157,16 +155,15 @@ public class Week3Assignments {
 		else
 			return false;
 	}
-	
-	
+
 //Part 13
-	public static void findEvenOdd(int num)  // is an int odd or even.
-	{  
-	//method body  
-	if(num%2==0)   
-	System.out.println(num+" is even");   
-	else   
-	System.out.println(num+" is odd");  
-	}  
+	public static void findEvenOdd(int num) // is an integer odd or even.
+	{
+		// method body
+		if (num % 2 == 0)
+			System.out.println(num + " is even");
+		else
+			System.out.println(num + " is odd");
+	}
 
 }
