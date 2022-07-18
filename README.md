@@ -5,7 +5,7 @@
 
 - 🔭 I’m currently working on [Week 3 Coding Assignment](https://github.com/JRomeroRangel/Week3.git)
 
-// <h3 align="left">Connect with me:</h3>
+<!-- <h3 align="left">Connect with me:</h3> -->
 <p align="left">
 </p>
 
