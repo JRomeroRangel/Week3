@@ -3,8 +3,9 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=jromerorangel&label=Profile%20views&color=0e75b6&style=flat" alt="jromerorangel" /> </p>
 
-- 🔭 I’m currently working on [Week 3 Coding Assignment](https://github.com/JRomeroRangel/Week3.git)
-
+<!-- - 🔭 I’m currently working on [Week 3 Coding Assignment](https://github.com/JRomeroRangel/Week3.git) -->
+Description:
+: In Eclipse, or an IDE of your choice, write the code that accomplishes the objectives listed below. Ensure that the code compiles and runs as directed. Take screenshots of the code and of the running program (make sure to get screenshots of all required functionality) and paste them in this document where instructed below. Create a new repository on GitHub for this week’s assignments and push this document, with your Java project code, to the repository. Add the URL for this week’s repository to this document where instructed and submit this document to your instructor when complete.
 <!-- <h3 align="left">Connect with me:</h3> -->
 <p align="left">
 </p>
